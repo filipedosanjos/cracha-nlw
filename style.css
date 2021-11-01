@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-family: "roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 375px;
+  height: 812px;
+  background: url(images/background.png);
+}
+
+.content {  
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 184px;
+  text-align: center;
+  position: relative;
+  color: var(--grey);
+}
+
+.picture {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  height: 11.5rem;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+#userImage{
+  height: 183px;
+  width: 183px;
+}
+
+.selo {
+  margin-left: 44px;
+  position: absolute;
+  top: -15px;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 1.5rem; 
+  margin-top: 1.5rem;
+}
+
+.redes {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  padding-top: 4.06rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.git {
+  margin-top: 0.625rem; 
+  display: flex;
+  gap: 0.75rem; 
+  justify-content: center;
+  align-items: center;
+  color: var(--grey);
+}
+
+button {
+  background-color: rgb(43, 43, 43);
+  border: none;
+  color: var(--grey);
+  padding: 5px 10px;
+  font-size: 15px;
+  display: flex;
+  margin: auto;
+  margin-top: 4rem;
+  cursor: pointer;
+}

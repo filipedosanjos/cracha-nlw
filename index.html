@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credencial para o DoWhile</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="content">
+      <div class="selo">
+        <img src="images/selo.png" alt="Selo da Rocketseat">
+      </div>
+      <div class="picture">
+        <img id="userImage" src="http://lorempixel.com/163/186/people/" alt="Foto pessoal">
+      </div>
+
+      <h1 class="name" id="userName">Nome do usuário</h1>
+      <a class="git" id="userGitLink" href="https://github.com/" target="_blank"><img src="images/github.png"
+          alt="Ícone do Github">
+        <span id="userGitName">Github do usuário</span>
+      </a>
+      <p id="userBio">An instructor focused on helping people start programming for web</p>
+
+      <ul class="redes" id="socialLinks">
+        <li class="youtube">
+          <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="Ícone do Youtube"></a>
+        </li>
+        <li class="instagram">
+          <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"
+              alt="Ícone do Instagram"></a>
+        </li>
+        <li class="facebook">
+          <a href="https://facebook.com/" target="_blank"><img src="images/facebook.png" alt="Ícone do Facebook"></a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="Ícone do Twitter"></a>
+        </li>
+      </ul>
+    </div>
+    <button id="button" onclick="changeData()">Gerar dados</button>
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
